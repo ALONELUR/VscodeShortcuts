@@ -1,0 +1,83 @@
+// Place your key bindings in this file to override the defaults
+[
+	{
+		"key": "ctrl+w j",
+		"command": "workbench.action.focusBelowGroup",
+	},
+	{
+		"key": "ctrl+w k",
+		"command": "workbench.action.focusAboveGroup",
+	},
+	{
+		"key": "ctrl+w h",
+		"command": "workbench.action.focusLeftGroup",
+	},
+	{
+		"key": "ctrl+w l",
+		"command": "workbench.action.focusRightGroup",
+	},
+	{
+		"key": "ctrl+w down",
+		"command": "workbench.action.moveActiveEditorGroupDown",
+	},
+	{
+		"key": "ctrl+w up",
+		"command": "workbench.action.moveActiveEditorGroupUp",
+	},
+	{
+		"key": "ctrl+w left",
+		"command": "workbench.action.moveActiveEditorGroupLeft",
+	},
+	{
+		"key": "ctrl+w right",
+		"command": "workbench.action.moveActiveEditorGroupRight",
+	},
+	{
+		"key": "alt+h",
+		"command": "extension.vim_escape",
+		"when": "editorTextFocus && vim.active && vim.mode == 'Insert'"
+	},
+	{
+		"key": "alt+j",
+		"command": "extension.vim_escape",
+		"when": "editorTextFocus && vim.active && vim.mode == 'Insert'"
+	},
+	{
+		"key": "alt+k",
+		"command": "extension.vim_escape",
+		"when": "editorTextFocus && vim.active && vim.mode == 'Insert'"
+	},
+	{
+		"key": "alt+l",
+		"command": "extension.vim_escape",
+		"when": "editorTextFocus && vim.active && vim.mode == 'Insert'"
+	},
+	{
+		"key": "ctrl+shift+tab",
+		"command": "workbench.action.focusNextGroup"
+	},
+	{
+		"key": "ctrl+j",
+		"command": "workbench.action.previousEditorInGroup"
+	},
+	{
+		"key": "alt+down",
+		"command": "workbench.action.terminal.focusNext",
+		"when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+	},
+	{
+		"key": "alt+up",
+		"command": "workbench.action.terminal.focusPrevious",
+		"when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+	},
+	{
+		"key": "ctrl+up",
+		"command": "git.stage",
+		"when": "workbench.scm.visible"
+	},
+	{
+		"key": "ctrl+up",
+		"command": "workbench.action.compareEditor.nextChange",
+		"when": "isInDiffEditor"
+	}
+]
