@@ -1,0 +1,152 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "remote.SSH.remotePlatform": {
+        "192.168.1.192": "linux",
+        "192.168.1.101": "linux",
+        "39.102.45.100": "linux",
+        "192.168.1.242": "linux",
+        "alonelur.site": "linux",
+        "192.168.1.197": "linux",
+        "192.168.124.98": "linux",
+        "192.168.124.74": "linux",
+        "192.168.124.22": "linux",
+        "192.168.55.1": "linux",
+        "192.168.124.92": "linux",
+        "xe20941996.51vip.biz": "linux",
+        "192.168.124.242": "linux",
+        "127.0.0.1": "linux",
+        "192.168.124.96": "linux",
+        "192.168.124.48": "linux",
+        "192.168.89.128": "linux",
+        "192.168.137.125": "linux",
+        "192.168.137.156": "linux",
+        "192.168.165.0": "linux",
+        "192.168.165.1": "linux",
+        "192.168.124.118": "linux",
+        "192.168.124.91": "linux",
+        "tui.br.megvii-inc.com": "linux",
+        "hua.br.megvii-inc.com": "linux"
+    },
+    "workbench.colorTheme": "GitHub Dark Default",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "matlab.matlabpath": "",
+    "matlab.mlintpath": "C:\\Matlab\\R2020b\\bin\\win64\\mlint.exe",
+    "matlab-formatter.separateBlocks": false,
+    "C_Cpp.clang_format_path": "C:\\Program Files\\LLVM\\bin\\clang-format.exe",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "C_Cpp.clang_format_fallbackStyle": "LLVM",
+    "[cpp]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    // "terminal.integrated.inheritEnv": false,
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.cursorStyle": "line",
+    "editor.insertSpaces": false,
+    "editor.lineNumbers": "on",
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "editor.wordWrap": "off",
+    "window.zoomLevel": 1,
+    "cmake.configureOnOpen": true,
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+    "julia.enableTelemetry": true,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "vim.autoSwitchInputMethod.obtainIMCmd": "C:\\im-select.exe",
+    "vim.autoSwitchInputMethod.switchIMCmd": "C:\\im-select.exe {im}",
+    "vim.autoSwitchInputMethod.enable": true,
+    "vim.autoSwitchInputMethod.defaultIM": "1033",
+    "clangd.path": "c:\\Users\\YWH\\AppData\\Roaming\\Code\\User\\globalStorage\\llvm-vs-code-extensions.vscode-clangd\\install\\15.0.3\\clangd_15.0.3\\bin\\clangd.exe",
+    "http.proxySupport": "off",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "vim.foldfix": true,
+    "vim.leader": " ",
+    "vim.easymotion": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "H"
+            ],
+            "commands": [
+                "workbench.action.navigateBack"
+            ]
+        },
+        {
+            "before": [
+                "L"
+            ],
+            "commands": [
+                "workbench.action.navigateForward"
+            ]
+        },
+        {
+            "before": [
+                "J",
+                "p"
+            ],
+            "commands": [
+                "latex-workshop.synctex"
+            ]
+        }
+    ],
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "h"
+            ],
+            "commands": [
+                "editor.action.triggerSuggest"
+            ],
+            "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+        }
+    ],
+    "julia.symbolCacheDownload": true,
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]",
+        "REVIEW",
+        "OLD"
+    ],
+    "window.enableMenuBarMnemonics": false,
+    "latex-workshop.latex.pdfWatch.delay": 5000,
+    "notebook.lineNumbers": "on",
+    "editor.cursorSurroundingLines": 5,
+    "doxdocgen.generic.paramTemplate": "\\param {param} ",
+    "doxdocgen.generic.returnTemplate": "\\return {type} ",
+    "doxdocgen.generic.dateTemplate": "\\date {date}",
+    "doxdocgen.generic.briefTemplate": "\\brief {text}",
+    "doxdocgen.generic.authorTag": "\\author {author} ({email})",
+    "doxdocgen.file.versionTag": "\\version 0.1",
+    "doxdocgen.file.fileTemplate": "\\file {name}",
+    "doxdocgen.cpp.tparamTemplate": "\\tparam {param} ",
+    "window.commandCenter": false,
+    "git.ignoreRebaseWarning": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.inlayHints.enabled": "on",
+    "clangd.arguments": [
+        "-header-insertion=never"
+    ]
+}
